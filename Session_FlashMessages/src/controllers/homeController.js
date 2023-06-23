@@ -1,5 +1,9 @@
 exports.paginaInicial = (req, res) => { 
-    res.session.usuario = {nome: 'Murillo', logado: true};
+    // console.log(req.session.usuario);
+    // req.flash('info', `${req.session.nome}`)
+    // req.flash('error', 'erro')
+    // req.flash('sucess', 'sucessooo meu faixa')
+    // console.log(req.flash('info'), req.flash('sucess'), req.flash('error'))
     res.render('index');
     return;
 };

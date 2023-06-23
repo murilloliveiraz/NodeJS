@@ -1,0 +1,14 @@
+<% if(typeof titulo !== 'undefined') { %>
+<%= titulo %>
+<% } %> 
+
+<% for (let i = 0; i < numeros.length; i++) { %>
+<%= numeros[i]%>
+<% }; %> 
+
+
+<% Controle de fluxo (if, for...)%>
+<%= Imprime escapando caracteres, le a tag e exibe todo o coteudo(se estiver style-inline ou a tag que esta envelopada) %>
+<%- Executa a tag , %>
+<%# Comentario %>
+<%- include('caminho/arquivo'); %>
